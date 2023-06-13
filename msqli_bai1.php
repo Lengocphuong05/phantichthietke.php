@@ -52,6 +52,6 @@ $MaSV = 003;
     } else {
         echo "ID number $MaSV has been successfully deleted";
     }
-//Tạo bảng lịch sử giao dịch với các cột: ngày giao dịch, loại giao dịch, số tiền, mô tả.
+
   
 ?>
