@@ -40,7 +40,7 @@ $sql_stmt = "UPDATE `DSSV` SET `Diemtb` = '8.5'";
 $MaSV = 003; 
     // ID của Venus trong CSQL
     
-    $sql_stmt = "DELETE FROM `DSSV` WHERE `id` = $id"; 
+    $sql_stmt = "DELETE FROM `DSSV` WHERE `MaSV` = $MaSV"; 
     // Câu lệnh SQL Delete
     
     $result = mysqli_query($conn,$sql_stmt); 
